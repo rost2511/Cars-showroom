@@ -1,0 +1,41 @@
+
+.site-footer {
+  background-color: lightslategrey;
+
+  label {
+    margin: auto;
+  }
+
+  .wpcf7-submit {
+    margin-left: 8%;
+  }
+
+  .wpcf7-submit:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+
+  .footer_forms {
+    form {
+      max-width: 350px;
+      margin: auto;
+      padding-top: 20px;
+
+      input {
+        margin: auto;
+        max-width: 90%;
+        border-radius: 10px;
+        background-color: lightcyan;
+      }
+    }
+  }
+
+  .footer_p {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    left: 30%;
+    bottom: 7%;
+    font-size: 2rem;
+  }
+}

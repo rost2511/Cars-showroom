@@ -1,0 +1,61 @@
+.showroom_single {
+  margin: auto 15px;
+
+  .showroom_title {
+    text-align: center;
+    color: $titlecolor;
+  }
+
+  p {
+    margin-bottom: 3px;
+    font-size: 20px;
+    color: $titlecolor;
+  }
+
+  .managers {
+    display: flex;
+    flex-wrap: wrap;
+
+    .manager {
+      margin: 10px auto;
+      text-align: center;
+
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .cars_in_showroom {
+    display: flex;
+    flex-wrap: wrap;
+
+    .car_in_showroom {
+      padding: 7px 7px;
+      margin: 10px auto;
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 10%;
+      background-color: $bgblock;
+
+      &:hover {
+        background-color: $bghover;
+
+        p {
+          color: white;
+        }
+      }
+
+      .car_in_showroom_link {
+        text-decoration: none;
+      }
+
+      img {
+        padding: 7px 7px;
+        border-radius: 15%;
+      }
+    }
+  }
+}

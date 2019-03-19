@@ -1,0 +1,24 @@
+/*
+@font-face  {
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+    src: url('#{$fontsPath}slick.eot');
+    src: url('.#{$fontsPath}slick.eot?#iefix') format('embedded-opentype'),
+        url('#{$fontsPath}slick.woff') format('woff'),
+        url('#{$fontsPath}slick.ttf') format('truetype'),
+        url('#{$fontsPath}#slick') format('svg');
+}
+*/
+
+html {
+  font-size: $baseFontSize;
+}
+
+body {
+  font-family: $baseFontFamily;
+}
+
+h1 {
+  font-weight: $mediumFontWeight;
+}
