@@ -92,7 +92,7 @@ get_header(); ?>
 						$the_query->the_post(); ?>
 
                         <div class="car_in_showroom" href="<?php the_permalink(); ?>">
-                            <a href="<?php the_permalink(); ?>">
+                            <a class="car_in_showroom_link" href="<?php the_permalink(); ?>">
 							<?php if ( get_field( 'car_image' ) ): ?>
 
                              <img src="<?php the_field( 'car_image' ); ?>"/>

@@ -8,4 +8,29 @@ $theme-colors: (
 );
 $navbar-dark-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{str-replace(str-replace(#{$navbar-dark-color}, "(", "%28"), ")", "%29")}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 $navbar-light-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{str-replace(str-replace(#{$navbar-light-color}, "(", "%28"), ")", "%29")}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+//fonts
+$google-font:  'https://fonts.googleapis.com/css?family=Ubuntu:400,500';
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&amp;subset=cyrillic");
+$mainFont: 'Roboto', sans-serif;
+$baseFontSize: 16px;
+$baseFontFamily: 'Ubuntu', sans-serif;
+$mediumFontWeight: 500;
+
+
+$mobilePadding: (12px / $baseFontSize) * 1rem;
+$desktopPadding: 1rem;
+
+
+// Paths
+
+$i: "../i/";
+$fontsPath: "../fonts/";
+$usersFilesPath: "../userfiles/";
+
+
+// Colors
+$bghover: #789;
+$titlecolor: #333959;
+$bgblock: #f7f3f3;
+
 
