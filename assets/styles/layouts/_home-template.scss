@@ -1,0 +1,96 @@
+body {
+  background-color: lightgrey;
+}
+
+.slider {
+  margin: auto;
+
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .slider_image {
+    max-width: 100%;
+    width: 100%;
+    max-height: 650px;
+  }
+
+  .slider_text {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+  }
+}
+
+.showrooms {
+  .showroom {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+
+    .showroom1 {
+      .showroom1_link {
+        text-decoration: none;
+        background-color: #333959;
+        padding: 30px 50px;
+        border-radius: 10px;
+        color: white;
+      }
+
+      .showroom1_link:hover {
+        background-color: #789;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+.content {
+  margin: 20px 25px;
+}
+
+.featured_cars {
+  display: flex;
+  justify-content: space-around;
+
+  .car-search_link {
+    text-decoration: none;
+  }
+
+  p {
+    margin-bottom: 3px;
+    color: #789;
+  }
+
+  .car-search {
+    border: 2px solid white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #f7f3f3;
+  }
+
+  .car-search:hover {
+    background-color: black;
+
+    p {
+      color: white;
+    }
+  }
+
+  img {
+    border-radius: 20%;
+  }
+}
+
+.partners {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+
+  img {
+    border-radius: 50%;
+  }
+}

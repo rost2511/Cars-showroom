@@ -1,0 +1,29 @@
+.archive_car_content {
+  display: flex;
+  flex-basis: 20px;
+  flex-wrap: wrap;
+  margin: 10px 15px;
+  justify-content: space-between;
+
+  .one_car {
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px 10px;
+    border-radius: 3%;
+    margin: 10px 15px;
+
+    .one_car:last-child {
+      margin-right: auto;
+    }
+
+    .one_car_link {
+      text-decoration: none;
+    }
+  }
+
+  .car_image {
+    border-radius: 50%;
+  }
+}
+

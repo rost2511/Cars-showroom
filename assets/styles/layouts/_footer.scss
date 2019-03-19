@@ -1,0 +1,31 @@
+
+.site-footer {
+  background-color: lightslategrey;
+
+  .wpcf7-submit {
+    margin-left: 8%;
+  }
+
+  .wpcf7-submit:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+
+  .footer_forms {
+    form {
+      input {
+        border-radius: 10px;
+        background-color: lightcyan;
+      }
+    }
+  }
+
+  .footer_p {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    left: 85%;
+    bottom: 100px;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,14 @@
+<?php
+/**
+ * Register Visual Composer shortcodes
+ *
+ * @link https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress
+ */
+// Check if Visual Composer is installed
+if ( defined( 'WPB_VC_VERSION' ) ) {
+    class WPBakeryShortCode_test extends WPBakeryShortCodesContainer
+    {
+        // Register custom modules functionality here
+    }
+// END VC Check
+}

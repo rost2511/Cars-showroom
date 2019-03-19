@@ -1,0 +1,37 @@
+.header {
+  ul {
+    margin-left: 79%;
+  }
+
+  .header_container {
+    min-width: 100%;
+  }
+
+  &__container {
+    @include make-container();
+    @include make-container-max-widths();
+
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+  }
+
+  &__row {
+    @include make-row();
+  }
+
+  &__brand {
+    @include make-col(3);
+  }
+
+  &__nav {
+    @include make-col(9);
+
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .menu-item {
+    margin: 0 10px;
+  }
+}

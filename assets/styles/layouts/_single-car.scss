@@ -1,0 +1,43 @@
+section {
+  margin: 15px 20px;
+
+  .single_car_link {
+    text-decoration: none;
+    color: #333959;
+  }
+
+  .single_car_link:hover {
+    color: #789;
+  }
+
+  .car_image {
+    float: left;
+    height: 200px;
+    border-radius: 10%;
+  }
+
+  .main_information {
+    margin-left: 23%;
+    margin-bottom: 5%;
+
+    p {
+      margin-bottom: 3px;
+      color: #333959;
+    }
+  }
+
+  .single_car_description {
+    margin: 15px auto 5px auto;
+  }
+
+  .car_gallery {
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+
+    img {
+      margin: auto 10px;
+      border-radius: 50%;
+    }
+  }
+}

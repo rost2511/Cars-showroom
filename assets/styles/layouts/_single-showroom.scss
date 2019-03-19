@@ -1,0 +1,47 @@
+.showroom_single {
+  margin: auto 15px;
+
+  .showroom_title {
+    text-align: center;
+    color: #333959;
+  }
+
+  p {
+    margin-bottom: 3px;
+    font-size: 20px;
+    color: #333959;
+  }
+
+  .managers {
+    display: flex;
+
+    .manager {
+      margin: 10px 20px;
+      text-align: center;
+
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .cars_in_showroom {
+    display: flex;
+
+    .car_in_showroom {
+      padding: 7px 7px;
+      margin: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid white;
+      border-radius: 10%;
+      background-color: #f7f3f3;
+
+      img {
+        padding: 7px 7px;
+        border-radius: 15%;
+      }
+    }
+  }
+}
