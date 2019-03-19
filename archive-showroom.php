@@ -7,7 +7,7 @@ get_header(); ?>
 	echo '<div class="entry-content">'; ?>
     <h1><?php the_title(); ?></h1>
 
-    <section>
+    <section class="showroom_flex">
 
 			<?php
 			if ( have_rows( 'managers' ) ):

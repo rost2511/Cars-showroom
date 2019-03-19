@@ -1,0 +1,7 @@
+.showroom_single {
+  .cars_in_showroom {
+    .car_in_showroom {
+      flex-basis: calc(1 / 2 * 100% - (1 - 1 / 2) * 60px);
+    }
+  }
+}

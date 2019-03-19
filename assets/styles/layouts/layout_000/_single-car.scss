@@ -19,7 +19,7 @@ section {
 
   .main_information {
     margin-left: 23%;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
 
     p {
       margin-bottom: 3px;
@@ -39,6 +39,7 @@ section {
     img {
       margin: auto 10px;
       border-radius: 50%;
+      width: 100%;
     }
   }
 }

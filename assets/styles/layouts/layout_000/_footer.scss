@@ -34,7 +34,7 @@
     display: inline-block;
     margin: 0;
     position: relative;
-    left: 30%;
+    left: calc(30% + 30px);
     bottom: 7%;
     font-size: 2rem;
   }

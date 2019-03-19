@@ -1,0 +1,8 @@
+.showroom_flex {
+  flex-direction: row;
+  justify-content: space-between;
+
+  .archive_showroom_manager {
+    width: calc(1 / 2 * 100% - (1 - 1 / 2) * 60px);
+  }
+}

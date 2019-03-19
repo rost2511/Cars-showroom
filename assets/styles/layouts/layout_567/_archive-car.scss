@@ -1,0 +1,15 @@
+.archive_car_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .one_car {
+    width: calc(1 / 2 * 100% - (1 - 1 / 2) * 60px);
+    background-color: #f7f3f3;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 3%;
+  }
+}
