@@ -1,0 +1,9 @@
+.showroom_single {
+  .cars_in_showroom {
+    justify-content: stretch;
+
+    .car_in_showroom {
+      flex-basis: calc(1 / 3 * 100% - (1 - 1 / 3) * 45px);
+    }
+  }
+}
